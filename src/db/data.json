@@ -83,6 +83,20 @@
       "eng": "banana",
       "kor": "바나나",
       "isDone": false
+    },
+    {
+      "id": "2f13",
+      "day": "1",
+      "eng": "apple",
+      "kor": "사과",
+      "isDone": false
+    },
+    {
+      "id": "69a2",
+      "day": "5",
+      "eng": "meet",
+      "kor": "만나다",
+      "isDone": false
     }
   ]
 }

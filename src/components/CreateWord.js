@@ -20,8 +20,15 @@ export default function CreateWord() {
     }).then((res) => {
       if (res.ok) {
         alert("생성이 완료 되었씁니다!");
+        clearForm();
       }
     });
+  }
+  function clearForm() {
+    engRef.current.value = "";
+    korRef.current.value = "";
+    dayRef.current.value = days[0]?.day || "";
+    engRef.current.focus();
   }
   useEffect(() => {
     console.log(engRef);
